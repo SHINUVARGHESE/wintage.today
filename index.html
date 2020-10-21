@@ -2,6 +2,7 @@
 <html lang="zxx" style="scroll-behavior:smooth">
 
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<title>Wintage</title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -266,26 +267,25 @@
 		<div class="container">
 			<h3 class="tittle text-center font-weight-bold">Contact Us</h3>
 			<div class="contact-form">
-				<form name="contactform" id="contactform1" method="post" action="#">
-					<div class="row">
+				<form id="submit-form" action="https://script.google.com/macros/s/AKfycbxev8g8xguBB61MYxB1QLScNE5wj5H8fEEgVdMe/exec"><div class="row">
 						<div class="col-lg-4 con-gd">
 							<div class="form-group" data-aos="fade-up">
-								<label>Name *</label>
-								<input type="text" class="form-control" id="name" placeholder="" name="name"
+								<label>First Name *</label>
+								<input type="text" class="form-control" id="fname" placeholder="" name="name"
 									required="">
 							</div>
 						</div>
 						<div class="col-lg-4 con-gd">
 							<div class="form-group" data-aos="fade-up">
 								<label>Email *</label>
-								<input type="email" class="form-control" id="email" placeholder="" name="email"
+								<input type="email" class="form-control" id="lname" placeholder="" name="email"
 									required="">
 							</div>
 						</div>
 						<div class="col-lg-4 con-gd">
 							<div class="form-group" data-aos="fade-up">
-								<label>Phone No. *</label>
-								<input type="text" class="form-control" id="phone" placeholder="" name="phone"
+								<label>country</label>
+								<input type="text" class="form-control" id="country" placeholder="" name="country"
 									required="">
 							</div>
 						</div>
@@ -294,7 +294,7 @@
 
 					<div class="form-group mb-5">
 						<label>How can we help?</label>
-						<textarea name="issues" class="form-control" id="iq" placeholder="" required=""></textarea>
+						<textarea id="subject" name="message" class="form-control" placeholder="" required=""></textarea>
 					</div>
 					<div class="contact-page">
 						<button type="submit" class="btn btn-default">Submit</button>
@@ -395,7 +395,25 @@
 	<a href="#home" class="move-top text-center"></a>
 	<!-- //move top icon -->
 
-
+	<script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbxev8g8xguBB61MYxB1QLScNE5wj5H8fEEgVdMe/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
 </body>
 
 </html>
