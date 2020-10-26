@@ -263,7 +263,7 @@
 				<form id="submit-form" action="https://script.google.com/macros/s/AKfycbxev8g8xguBB61MYxB1QLScNE5wj5H8fEEgVdMe/exec"><div class="row">
 						<div class="col-lg-4 con-gd">
 							<div class="form-group" data-aos="fade-up">
-								<label>Name *</label>
+								<label>First Name *</label>
 								<input type="text" class="form-control" id="fname" placeholder="" name="name"
 									required="">
 							</div>
@@ -277,8 +277,8 @@
 						</div>
 						<div class="col-lg-4 con-gd">
 							<div class="form-group" data-aos="fade-up">
-								<label>Phone</label>
-								<input type="text" class="form-control" id="phone" placeholder="" name="phone"
+								<label>country</label>
+								<input type="text" class="form-control" id="country" placeholder="" name="country"
 									required="">
 							</div>
 						</div>
@@ -340,7 +340,7 @@
 						</div>
 						<div class="footer-style-w3ls mb-4">
 							<h4 class="text-li mb-2">Email </h4>
-							<p><a href="mailto:info@example.com">wintage.chavara@gmail.com</a></p>
+							<p><a href="mailto:info@example.com">shinushinu01997@gmail.com</a></p>
 						</div>
 						<div class="footer-style-w3ls mb-4">
 							<h4 class="text-li mb-2">Location</h4>
@@ -392,7 +392,7 @@
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbxXOf3FYetjhFKhYO2avNNnwrf2z5xiqTOsO2tv/exec",
+                url:"https://script.google.com/macros/s/AKfycbxev8g8xguBB61MYxB1QLScNE5wj5H8fEEgVdMe/exec",
                 data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){
