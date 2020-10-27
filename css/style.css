@@ -632,7 +632,7 @@ a.reqe-button {
 }
 
 .csslider>ul>li:first-child {
-    background: url(../images/4.jpg) no-repeat center;
+    background: url(../images/new\ pic1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -659,7 +659,7 @@ a.reqe-button {
 }
 
 .csslider>ul>li:last-child {
-    background: url(../images/1.jpg) no-repeat center;
+    background: url(../images/4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
