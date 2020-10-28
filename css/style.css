@@ -81,11 +81,11 @@ ol {
     margin: 0;
     padding: 0;
 }
-#videos{
-    margin-left: 10px;
-    margin-top: 10px;
-    border: 2px solid black;
-    border-radius: 5px;
+video{
+    margin: 10px;
+    width: 100%;
+    height: 180pt;
+    background-color: black;
 }
 /* //Reset Code */
 
