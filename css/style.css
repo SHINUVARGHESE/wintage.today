@@ -15,7 +15,6 @@ body {
     background: #FFF;
     font-family: 'Oxygen', sans-serif;
 }
-
 body button,
 .btn,
 body a {
@@ -730,7 +729,7 @@ h3.w3ls_pvt-title {
     }
 
     h3.w3ls_pvt-title {
-        font-size: 48px;
+        font-size: 37px;
     }
 }
 
@@ -824,7 +823,7 @@ h3.w3ls_pvt-title {
     }
 
     h3.w3ls_pvt-title {
-        font-size: 36px;
+        font-size: 27px;
     }
 }
 
