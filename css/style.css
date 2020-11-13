@@ -843,7 +843,7 @@ h3.w3ls_pvt-title {
 
 @media(max-width: 480px) {
     h3.w3ls_pvt-title {
-        font-size: 33px;
+        font-size: 25px;
     }
 
     .w3ls_banner_txt p {
@@ -865,13 +865,13 @@ h3.w3ls_pvt-title {
     }
 
     h3.w3ls_pvt-title {
-        font-size: 31px;
+        font-size: 25px;
     }
 }
 
 @media(max-width: 384px) {
     h3.w3ls_pvt-title {
-        font-size: 28px;
+        font-size: 25px;
     }
 }
 
@@ -894,7 +894,7 @@ h3.w3ls_pvt-title {
     }
 
     h3.w3ls_pvt-title {
-        font-size: 27px;
+        font-size: 25px;
     }
 }
 
