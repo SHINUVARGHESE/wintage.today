@@ -80,10 +80,11 @@ ol {
     padding: 0;
 }
 video{
-    margin: 10px;
+    margin: 1px;
+    margin-top: 10px;
     width: 100%;
-    height: 180pt;
-    background-color: black;
+    height: 175pt;
+    background-color:black;
 }
 /* //Reset Code */
 
