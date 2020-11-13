@@ -824,6 +824,7 @@ h3.w3ls_pvt-title {
 
     h3.w3ls_pvt-title {
         font-size: 25px;
+        font-style: italic;
     }
 }
 
@@ -844,6 +845,7 @@ h3.w3ls_pvt-title {
 @media(max-width: 480px) {
     h3.w3ls_pvt-title {
         font-size: 25px;
+        font-style: italic;
     }
 
     .w3ls_banner_txt p {
@@ -866,12 +868,14 @@ h3.w3ls_pvt-title {
 
     h3.w3ls_pvt-title {
         font-size: 25px;
+        font-style: italic;
     }
 }
 
 @media(max-width: 384px) {
     h3.w3ls_pvt-title {
         font-size: 25px;
+        font-style: italic;
     }
 }
 
@@ -895,6 +899,7 @@ h3.w3ls_pvt-title {
 
     h3.w3ls_pvt-title {
         font-size: 25px;
+        font-style: italic;
     }
 }
 
