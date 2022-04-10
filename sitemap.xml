@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://wintage.today/</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://wintage.today/index.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wintage.today/gallery.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wintage.today/packages.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wintage.today/weddingCar.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wintage.today/events.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wintage.today/rentCar.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wintage.today/touristBus.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wintage.today/traveller.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wintage.today/boats.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wintage.today/hotels.html</loc>
+  <lastmod>2021-09-09T10:57:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
